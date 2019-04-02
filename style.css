@@ -1,0 +1,78 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Barrio', sans-serif;
+    line-height: 180%;
+    color: rgb(216, 216, 216);
+    text-align: center;
+    Background-color: #333;
+}
+
+.parallax1 {
+    background: url(img/gangsta.jpg);
+    min-height: 100%;
+}
+.parallax2 {
+    background: url(img/arches.png);
+    min-height: 60%;
+}
+.parallax3 {
+    background: url(img/cowboy.jpg);
+    min-height: 40%;
+}
+
+.parallax4 {
+    background: url(img/foxface.jpg);
+    min-height: 100%;
+}
+
+.parallax1, .parallax2, .parallax3, .parallax4 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.heading {
+    position: absolute;
+    color: #fff;
+    font-size: 350%;
+    top: 25%;
+    width: 100%;
+    line-height: 100%;
+}
+
+.subHead {
+    position: relative;
+    color: #fff;
+    font-size: 70%;
+    top: 35%;
+    width: 100%;
+    line-height: 100%;
+    
+}
+
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas:
+    "pic1 about pic2"
+
+    "experience skills education"
+}
+
+.pic1 { background-color: #41D3BD; }
+.about { background-color: #DE6449;}
+.pic2 { background: #407899;}
+.experience { background: #694D75;}
+.skills { background: #41D3BD; }
+.education { background: #DE6449;}
+
+
+.navbar fixed-bottom
+
+
+
